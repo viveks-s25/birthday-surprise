@@ -53,7 +53,7 @@ export default function BalloonScene({ goToNext }) {
   );
 
   return (
-    <SceneWrapper>
+    <SceneWrapper scrollable>
       <FloatingHearts count={10} />
       <Sparkles count={8} />
 
